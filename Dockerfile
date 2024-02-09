@@ -1,0 +1,4 @@
+FROM bde2020/spark-python-template:3.1.2-hadoop3.2
+
+ENV SPARK_APPLICATION_PYTHON_LOCATION app/main.py
+ENV SPARK_APPLICATION_ARGS "2 z 0 500"
